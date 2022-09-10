@@ -16,4 +16,4 @@ jobs:
       - name: Release
         env:
           GOPROXY: proxy.golang.org
-        run: go list -m "github.com/ryanwholey/go-pihole@${GITHUB_REF#refs/*/}"
+        run: go list -m "github.com/mhaii/go-pihole@${GITHUB_REF#refs/*/}"

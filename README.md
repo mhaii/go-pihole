@@ -7,7 +7,7 @@ Requires Pi-hole Web Interface >= `5.11` (Docker tag >= `2022.02.1`)
 ## Usage
 
 ```go
-import "github.com/ryanwholey/go-pihole"
+import "github.com/mhaii/go-pihole"
 
 client := pihole.New(pihole.Config{
 	BaseURL:  "http://pi.hole"

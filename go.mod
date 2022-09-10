@@ -1,4 +1,4 @@
-module github.com/ryanwholey/go-pihole
+module github.com/mhaii/go-pihole
 
 go 1.17
 
